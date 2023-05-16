@@ -1,0 +1,23 @@
+--para crear la base de datos:
+CREATE DATABASE REBOUND;
+resultado:
+CREATE DATABASE
+
+--para crear el usuario:
+CREATE USER GIOVANY;
+resultado:
+CREATE ROLE
+
+--para listar la base de datos creada:
+\l REBOUND
+postgres-# \l rebound
+resultado:                                                             List of databases
+  Name   |  Owner   | Encoding |          Collate           |           Ctype            | ICU Locale | Locale Provider | Access privileges
+---------+----------+----------+----------------------------+----------------------------+------------+-----------------+-------------------
+ rebound | postgres | UTF8     | English_United States.1252 | English_United States.1252 |            | libc            |
+(1 row)
+
+--para ingresar a la base de datos creada:
+\c REBOUND
+resultado:
+You are now connected to database "rebound" as user "postgres".
